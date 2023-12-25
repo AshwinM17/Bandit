@@ -167,6 +167,8 @@ Password for bandit8:**TESKZC0XvTetK0S9xNwm25STk5iWrBvP**
 
  ie command executed sort data.txt | uniq -u
 
- Password for bandit9:
+ Password for bandit9:**EN632PlfYiZbn3PhVK3XOGSlNInNE00t**
+ 
+ <h2>bandit9</h2>
 
 
