@@ -83,6 +83,7 @@ bandit3@bandit:\~*\$ <br>
 Password:-<b>2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe</b>
 
 <h2>Level 5</h2>
+
 ![Alt text](pics/image5.png)
 
 you can use du to get size on drive,which is same,
