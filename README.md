@@ -168,7 +168,19 @@ Password for bandit8:**TESKZC0XvTetK0S9xNwm25STk5iWrBvP**
  ie command executed sort data.txt | uniq -u
 
  Password for bandit9:**EN632PlfYiZbn3PhVK3XOGSlNInNE00t**
- 
+
  <h2>bandit9</h2>
 
+![Alt text](pics/image9.png)
+
+on cat data.txt 
+
+we get a lot of **non-human readable text** so we have to use the <u>**strings data.txt**</u> to take out the human readable text to get the password
+
+we can also <u>**pipe ie | grep ==**</u>
+
+to get only those preceeded by multiple =
+
+
+Password for bandit10:**G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s**
 
