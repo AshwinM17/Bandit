@@ -60,24 +60,24 @@ searches and returns all file names in the current directory
 </p>
 logs:
 
-bandit3@bandit:\~$ ls<br>
+bandit3@bandit:\~*\$ ls<br>
 inhere<br>
-bandit3@bandit:~$ cd inhere<br>
-bandit3@bandit:~/inhere$ ls<br>
-bandit3@bandit:~/inhere$ find<br>
+bandit3@bandit:\~*\$ cd inhere<br>
+bandit3@bandit:\~*\/inhere$ ls<br>
+bandit3@bandit:\~*\/inhere$ find<br>
 .<br>
 ./.hidden<br>
-bandit3@bandit:~/inhere$ cat ./.hidden<br>
+bandit3@bandit:\~*\/inhere$ cat ./.hidden<br>
 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe<br>
-bandit3@bandit:~/inhere$ #or<br>
+bandit3@bandit:\~*\/inhere$ #or<br>
 
-bandit3@bandit:~/inhere$ cd ~/<br>
-bandit3@bandit:~$ find ./inhere<br>
+bandit3@bandit:\~*\/inhere$ cd ~/<br>
+bandit3@bandit:\~*\$ find ./inhere<br>
 ./inhere<br>
 ./inhere/.hidden<br>
-bandit3@bandit:~$ cat ./inhere/.hidden<br>
+bandit3@bandit:\~*\$ cat ./inhere/.hidden<br>
 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe<br>
-bandit3@bandit:~$ <br>
+bandit3@bandit:\~*\$ <br>
 
 
 Password:-<b>2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe</b>
