@@ -140,3 +140,33 @@ found  many files,only one where permission was not denied<br>
 on cat /var/lib/dpkg/info/bandit7.password
 
 we get:**z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S**
+
+<h2>bandit7</h2>
+
+![Alt text](image7.png)
+
+as we have got a text file which has a lot oof text in it 
+we can use the grep command which is the search command
+<h3> Grep command to search for a specific keyword and its adjacent word</h3>
+
+command:grep millionth data.txt
+
+it prints the line(ie till line end character) where the word millionth is present 
+
+Password for bandit8:**TESKZC0XvTetK0S9xNwm25STk5iWrBvP**
+<h2>bandit8</h2>
+
+![Alt text](pics/image8.png)
+ we had to find unique line
+ so we can use **sort "filename"**
+ to sort the data into alphabetical order
+ and then use **| uniq -u**
+
+ as *unique checks the **i-1th and i+1th line** and if both are diffrent rom the ith line then returns it*
+ so as they are in aplhabetic order the only line printed would be the unique line(ie with frequency 1)
+
+ ie command executed sort data.txt | uniq -u
+
+ Password for bandit9:
+
+
