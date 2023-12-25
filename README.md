@@ -42,7 +42,7 @@ cat file\ name\ with\ spaces
 
 Password:-<b>aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG</b>
 
-<h2>Level 4</h2>
+<h2>Level 5</h2>
 
 ![Alt text](pics/image4.png)
 
@@ -82,7 +82,7 @@ bandit3@bandit:\~*\$ <br>
 
 Password:-<b>2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe</b>
 
-<h2>Level 5</h2>
+<h2>Level 6</h2>
 
 ![Alt text](pics/image5.png)
 
@@ -103,4 +103,4 @@ for loop in linux for file type<br>
 or <br>
 cat each file and get meaningful data only in -file07
 
-<h2>Level 6</h2>
+<h2>Level 7</h2>
