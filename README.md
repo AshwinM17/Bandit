@@ -23,14 +23,21 @@ Sometimes you can slip and create a file whose name starts with a dash (-), like
 
 In almost every case, all you need to do is "hide" the dash from the command. <b>Start the filename with ./ (dot slash)</b>. This doesn't change anything as far as the command is concerned; ./ just means "look in the current directory" (1.21). So here's how to remove the file -f:
 Therefore command written is:
-~$ cat ./-
+**\~$ cat ./-**
+
+
+or
+
+**we can do cat <-**
+
+**"<" converts the next lines to the way it is**
 prints:-
 rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
 <h2>bandit2</h2>
 
 ![Alt text](pics/image.png)
 
-Read a File with spaces in filename
+**Read a File with spaces in filename**
 
 You can use 'cat' command or open the document using your preferred text editor such as vim, nano or gedit.
 
@@ -39,6 +46,10 @@ cat 'personal docs'
 Alternatively, you can use the syntax below
 
 cat file\ name\ with\ spaces
+
+alternatively
+
+**pressing tab after writing a little bit** of the file name then it autofills the name with full name and including the / etc
 
 Password:-<b>aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG</b>
 
@@ -50,7 +61,11 @@ Password:-<b>aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG</b>
 <p>
 The find command in Linux is a dynamic utility designed for comprehensive file and directory searches within a hierarchical structure. 
 
-find ./"directory name"
+use **ls -alps**
+
+or
+
+**find ./"directory name"**
 
 searches for all the files and returns their name also returns the file that were hidden
 
@@ -80,6 +95,7 @@ bandit3@bandit:\~*\$ cat ./inhere/.hidden<br>
 bandit3@bandit:\~*\$ <br>
 
 
+
 Password:-<b>2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe</b>
 
 <h2>bandit4</h2>
@@ -100,6 +116,9 @@ same for all except -file07 which was an ascii text file
 Password for bandit5:<b>lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR</b>
 
 alternate solutions
+
+or type to get all the datatypes stored in **file ./\***
+
 for loop in linux for file type<br>
 or <br>
 cat each file and get meaningful data only in -file07
@@ -143,7 +162,8 @@ we get:**z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S**
 
 <h2>bandit7</h2>
 
-![Alt text](image7.png)
+<img src="pics/image7.png">
+
 
 as we have got a text file which has a lot oof text in it 
 we can use the grep command which is the search command
