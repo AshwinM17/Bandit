@@ -60,7 +60,7 @@ searches and returns all file names in the current directory
 </p>
 logs:
 
-bandit3@bandit:~$ ls<br>
+bandit3@bandit:\~$ ls<br>
 inhere<br>
 bandit3@bandit:~$ cd inhere<br>
 bandit3@bandit:~/inhere$ ls<br>
