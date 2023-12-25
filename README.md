@@ -204,3 +204,42 @@ to get only those preceeded by multiple =
 
 Password for bandit10:**G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s**
 
+
+<h2>bandit10</h2>
+
+![Alt text](pics/image10.png)
+
+We will be piping the base64 decoder in linux to the cat comand as we have an ascii data file which is base64 encoded
+
+**cat data.txt|base64 -d**
+
+-d for decode
+
+no extension for encodeing
+![Alt text](pics/image10_2.png)
+Password for bandit11:**6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM**
+<h2>bandit11</h2>
+
+**Using the tr Command for rot13**
+
+The tr command in Linux is used for translating or deleting characters. We can use it to shift the alphabet by 13 places. Here’s how:
+
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
+In this command:
+
+    cat rot.txt reads the content of the file rot.txt.
+    The pipe operator | passes the output of the previous command as input to the next command.
+    tr 'A-Za-z' 'N-ZA-Mn-za-m' translates all uppercase and lowercase letters to their corresponding ROT13 characters.
+
+The above data gives the output "The password is JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv"
+
+Password for bandit12:**JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv**
+
+<h2>bandit12</h2>
+
+<h2>bandit13</h2>
+
+<h2>bandit14</h2>
+
+<h2>bandit15</h2>
