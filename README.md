@@ -281,13 +281,38 @@ which gives the password
 
 The password for bandit 13:**wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw**
 
-
-    
-
-
-
 <h2>bandit13</h2>
+
+![Alt text](pics/image13.png)
+
+    ssh -i sshkey.private bandit14@localhost -p 2220
+
+we use the above command to access bandit 14 machine via the sshkey.private file provided
+
+after entering the bandit 14 machine we can get the previious password
+
+    bandit14@bandit:~$ cat /etc/bandit_pass/bandit14
+**fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq**
 
 <h2>bandit14</h2>
 
+![Alt text](pics/image14.png)
+
+we have to use password  for bandit 14 and use **nc(netcat)** command to login as local host at port 30000 and then penter the password(after pressing enter adter nc localhost 30000)
+
+    bandit14@bandit:~$ nc localhost 30000
+    fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
+    Correct!
+    jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+
+password for bandit15:**jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt**
+
 <h2>bandit15</h2>
+
+![Alt text](pics/image15.png)
+
+    bandit15@bandit:~$ ncat --ssl localhost 30001
+    jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+    Correct!
+    JQttfApK4SeyHwDlI9SXGR50qclOAil1
+
