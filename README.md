@@ -274,7 +274,7 @@ when we encountered a **tar archive** example data is a tar archive
     mv data data.tar
     tar xf data.tar
     (creates a new file which is extracted from it)
-<a href="pics/bandit 12 dull code">Full code in command prompt</a>
+<a href="pics/bandit 12 full code.md">Full code in command prompt</a>
 
 finally we get an ascii file
 which gives the password
