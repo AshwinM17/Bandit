@@ -238,6 +238,54 @@ Password for bandit12:**JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv**
 
 <h2>bandit12</h2>
 
+![Alt text](pics/image12.png)
+
+
+The password is wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
+
+here we are required to edit a file so we have to make a directory where we can have access to edit it,ie we **create a directory and copy the data.txt** fiile into it
+
+    mkdir /tmp/ashwin
+    cp data.txt /tmp/ashwin
+now we have a **hexdump file**(is a hexadecimal view of the computer data) which is data.txt 
+
+we have to reverse the xxd comand
+
+
+    xxd -r data.txt
+
+we encountered 3 types of zinnping **gzip,bzip2 and tar archive**
+
+when we encountered a **gzip** example data is a gzip file(get to know from file data)
+
+    mv data data.gz
+    (renames and changes the extension)
+    gzip -d data.gz
+    
+
+when we encountered a **bzip2** example data is a bzip2 file
+
+    mv data data.bz
+    (renames and changes the extension)
+    bzip2 -d data.bz
+
+when we encountered a **tar archive** example data is a tar archive 
+
+    mv data data.tar
+    tar xf data.tar
+    (creates a new file which is extracted from it)
+<a href="pics/bandit 12 dull code">Full code in command prompt</a>
+
+finally we get an ascii file
+which gives the password
+
+The password for bandit 13:**wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw**
+
+
+    
+
+
+
 <h2>bandit13</h2>
 
 <h2>bandit14</h2>
