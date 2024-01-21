@@ -30,7 +30,9 @@ or
 
 **we can do cat <-**
 
-**"<" converts the next lines to the way it is**
+<b> "<" redirects the contents of - to cat command  </b>
+
+
 prints:-
 rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
 <h2>bandit2</h2>
