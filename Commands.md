@@ -63,9 +63,38 @@ Pass in bandit3
 ```
 # level 4-5/bandit4
 ```
+cd inhere
+
 file ./* 
 (./ for in this directory  and * for all and we use file command)
 ```
+Pass in bandit4
 ```
 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+```
+# level 5-6/bandit5
+```
+cd inhere 
+
+// show that all files contains various files so it is not possible to brute force it
+
+find ./ -type f -size 1033c
+
+returns the path to the exact file
+./maybehere07/.file2
+
+cat ".file2"
+
+```
+Pass in bandit5
+```
+P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+```
+# level 6-7/bandit6
+```
+find / -user bandit7 -group bandit6 -size 33c
+
+//returns a list of all the files stored on the server
+//we observe the fact that there is only one where it does not say permission denied
+
 ```
