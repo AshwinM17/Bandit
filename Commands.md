@@ -61,3 +61,11 @@ Pass in bandit3
 ```
 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
 ```
+# level 4-5/bandit4
+```
+file ./* 
+(./ for in this directory  and * for all and we use file command)
+```
+```
+2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+```

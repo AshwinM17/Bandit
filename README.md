@@ -111,7 +111,7 @@ use <b>ls -l</b> to get size ,file type which is same for eveything here
  
  so in the end I tried file ./-file00<br>
  o/p:./-file00: data
-//./- as name hd - in it
+//./- as name has '-' in it
 
 same for all except -file07 which was an ascii text file
 
