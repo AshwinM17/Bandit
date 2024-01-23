@@ -97,4 +97,89 @@ find / -user bandit7 -group bandit6 -size 33c
 //returns a list of all the files stored on the server
 //we observe the fact that there is only one where it does not say permission denied
 
+cat /var/lib/dpkg/info/bandit7.password
+
+
 ```
+Pass in bandit6
+```
+z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+```
+# level 7-8/bandit7
+```
+$ls
+ data.txt
+$file data.txt
+ Unicode text, UTF-8 text
+$cat data.txt
+//gives very long text  output
+
+//to search for pass next to word millionth 
+grep millionth data.txt
+
+```
+Pass in bandit7
+```
+TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+```
+# level 8-9/bandit8
+```
+ls 
+file data.txt
+cat data.txt
+//gives very long text  output
+
+cat data.txt | sort |uniq -u
+or
+sort data.txt | uniq -u
+//uniq -u searches for unique in i-1 and i+th line that is why we had to sort
+
+```
+Pass in bandit8
+```
+EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+```
+# level 9-10/bandit9
+
+```
+// first show strings data.txt
+strings data.txt | grep ==
+O/P:-
+
+    x]T========== theG)"
+    ========== passwordk^
+    ========== is
+    ========== G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+```
+Pass in bandit9
+```
+G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+```
+# level 10-11/bandit10
+```
+cat data.txt
+or 
+base64 -d data.txt
+The password is 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+
+```
+pass in bandit10
+```
+6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+```
+# level 11-12/bandit11
+
+```
+get a rot 13// encoded file
+$ cat data.txt | tr [A-Za-z] [N-ZA-Mn-za-m]
+or
+$ cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+The password is JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+
+```
+pass in bandit11
+```
+JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+```
+
+
