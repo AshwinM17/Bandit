@@ -70,7 +70,7 @@ file ./*
 ```
 Pass in bandit4
 ```
-2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
 ```
 # level 5-6/bandit5
 ```
